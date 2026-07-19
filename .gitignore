@@ -1,0 +1,22 @@
+# Environments
+.env
+.env.*
+!.env.demo
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+verifyai_mock.db
+
+# Node
+node_modules/
+dist/
+.next/
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+backend/uploads/*

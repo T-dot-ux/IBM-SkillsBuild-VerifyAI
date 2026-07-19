@@ -1,0 +1,23 @@
+{
+    "final_trust_score": 80.8,
+    "confidence_meter": 28.2,
+    "verdict": {
+        "level": "SAFE",
+        "mascot_state": "idle",
+        "color": "#3B82F6",
+        "recommended_action": "Proceed safely."
+    },
+    "trust_breakdown": {
+        "threat_score": 100.0,
+        "source_credibility": 65.0,
+        "evidence_quality": 30.0,
+        "technical_integrity": 100.0
+    },
+    "reasoning_tree": [
+        {
+            "agent": "Evidence Agent",
+            "finding": "Very sparse textual evidence.",
+            "impact": "HIGH"
+        }
+    ]
+}

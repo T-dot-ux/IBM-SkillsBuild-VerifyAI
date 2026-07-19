@@ -1,0 +1,23 @@
+{
+    "final_trust_score": 85.8,
+    "confidence_meter": 51.4,
+    "verdict": {
+        "level": "SAFE",
+        "mascot_state": "idle",
+        "color": "#3B82F6",
+        "recommended_action": "Proceed safely."
+    },
+    "trust_breakdown": {
+        "threat_score": 100.0,
+        "source_credibility": 65.0,
+        "evidence_quality": 80.0,
+        "technical_integrity": 100.0
+    },
+    "reasoning_tree": [
+        {
+            "agent": "Evidence Agent",
+            "finding": "Contains structured contact info or numerical data.",
+            "impact": "HIGH"
+        }
+    ]
+}

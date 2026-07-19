@@ -1,0 +1,33 @@
+{
+    "final_trust_score": 89.5,
+    "confidence_meter": 55.0,
+    "verdict": {
+        "level": "SAFE",
+        "mascot_state": "idle",
+        "color": "#3B82F6",
+        "recommended_action": "Proceed safely."
+    },
+    "trust_breakdown": {
+        "threat_score": 100.0,
+        "source_credibility": 70.0,
+        "evidence_quality": 100.0,
+        "technical_integrity": 100.0
+    },
+    "reasoning_tree": [
+        {
+            "agent": "Source Agent",
+            "finding": "Domain uses HTTPS.",
+            "impact": "MODERATE"
+        },
+        {
+            "agent": "Evidence Agent",
+            "finding": "Sufficient text length for detailed analysis.",
+            "impact": "HIGH"
+        },
+        {
+            "agent": "Evidence Agent",
+            "finding": "Contains structured contact info or numerical data.",
+            "impact": "HIGH"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "final_trust_score": 45.0,
+    "confidence_meter": 46.666666666666664,
+    "verdict": {
+        "level": "SUSPICIOUS",
+        "mascot_state": "thinking",
+        "color": "#CA8A04",
+        "recommended_action": "Verify the sender through a secondary channel before proceeding."
+    },
+    "trust_breakdown": {
+        "threat_score": 100.0,
+        "source_credibility": 100.0,
+        "evidence_quality": 45.0,
+        "technical_integrity": 100.0
+    },
+    "reasoning_tree": [
+        {
+            "agent": "Source",
+            "finding": "Could not identify any source domains or links.",
+            "impact": "NEUTRAL"
+        },
+        {
+            "agent": "Evidence",
+            "finding": "Very sparse textual evidence.",
+            "impact": "LOW"
+        }
+    ],
+    "summary": "Verification complete. Review the reasoning tree for details."
+}

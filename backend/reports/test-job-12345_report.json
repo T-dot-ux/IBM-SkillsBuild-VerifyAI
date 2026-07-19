@@ -1,0 +1,48 @@
+{
+    "final_trust_score": 24.0,
+    "confidence_meter": 33.1,
+    "verdict": {
+        "level": "FRAUDULENT",
+        "mascot_state": "error",
+        "color": "#991B1B",
+        "recommended_action": "Delete and block."
+    },
+    "trust_breakdown": {
+        "threat_score": 25.0,
+        "source_credibility": 20.0,
+        "evidence_quality": 80.0,
+        "technical_integrity": 100.0
+    },
+    "reasoning_tree": [
+        {
+            "agent": "Threat Agent",
+            "finding": "Domain paypa1-security-update.xyz. attempts to imitate a known brand.",
+            "impact": "CRITICAL"
+        },
+        {
+            "agent": "Threat Agent",
+            "finding": "Upfront fee request (job scam indicator).",
+            "impact": "CRITICAL"
+        },
+        {
+            "agent": "Source Agent",
+            "finding": "Domain uses a TLD often associated with spam/fraud.",
+            "impact": "HIGH"
+        },
+        {
+            "agent": "Source Agent",
+            "finding": "Domain uses insecure HTTP connection.",
+            "impact": "HIGH"
+        },
+        {
+            "agent": "Evidence Agent",
+            "finding": "Contains structured contact info or numerical data.",
+            "impact": "POSITIVE"
+        },
+        {
+            "agent": "Decision Agent (Veto)",
+            "finding": "Automatic Veto Applied due to critical threat: Domain paypa1-security-update.xyz. attempts to imitate a known brand.",
+            "impact": "CRITICAL"
+        }
+    ]
+}
