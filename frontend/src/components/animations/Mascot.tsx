@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { useEffect, useState } from "react";
 
 type MascotState = "idle" | "working" | "success" | "warning" | "error";
@@ -27,7 +27,7 @@ export const Mascot = ({ state }: MascotProps) => {
   if (state === "working") color = "#f97316"; // Orange (working)
 
   // Motion variants for Mascot box shakes & bounces
-  const variants: any = {
+  const variants: Variants = {
     idle: {
       y: [0, -5, 0],
       transition: { duration: 3, repeat: Infinity, ease: "easeInOut" }
