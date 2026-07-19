@@ -27,7 +27,7 @@ export const Mascot = ({ state }: MascotProps) => {
   if (state === "working") color = "#f97316"; // Orange (working)
 
   // Motion variants for Mascot box shakes & bounces
-  const variants = {
+  const variants: any = {
     idle: {
       y: [0, -5, 0],
       transition: { duration: 3, repeat: Infinity, ease: "easeInOut" }
