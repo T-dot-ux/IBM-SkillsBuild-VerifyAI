@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/T-dot-ux/VerifyAI/main/frontend/public/mascot_safe.png" alt="VerifyAI Logo" width="150"/>
+  <img src="https://raw.githubusercontent.com/T-dot-ux/IBM-SkillsBuild-VerifyAI/main/frontend/public/mascot_safe.png" alt="VerifyAI Logo" width="150"/>
   <h1>VerifyAI – Your Digital Trust Copilot</h1>
   <p><strong>AI-powered document and web verification. Instantly detect scams, verify sources, and proceed with confidence.</strong></p>
 </div>
