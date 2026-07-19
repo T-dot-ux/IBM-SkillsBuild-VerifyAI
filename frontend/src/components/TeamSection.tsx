@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Github, ExternalLink } from "lucide-react";
+import { GitBranch, ExternalLink } from "lucide-react";
 
 type GithubUser = {
   login: string;
@@ -102,7 +102,7 @@ export function TeamSection() {
                       className="w-32 h-32 rounded-full border-8 border-black object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute -bottom-4 -right-4 bg-yellow-400 p-2 rounded-full border-4 border-black group-hover:rotate-12 transition-transform">
-                      <Github className="w-6 h-6 text-black" />
+                      <GitBranch className="w-6 h-6 text-black" />
                     </div>
                   </div>
                   
